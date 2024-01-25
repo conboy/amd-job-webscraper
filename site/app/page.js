@@ -1,4 +1,7 @@
+"use client"
+
 import Image from "next/image";
+import AMD from "./components/AMD"
 
 export default function Home() {
   return (
@@ -23,6 +26,7 @@ export default function Home() {
         </section>
 
         {/* Add more sections here as needed */}
+        <AMD></AMD>
       </main>
 
       <footer className="bg-gray-700 text-white text-center p-4">
